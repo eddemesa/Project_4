@@ -1,0 +1,32 @@
+div {
+    font-family: Futura;
+    font-size: 8em;
+    background-color: #ff4c65;
+    color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 13px;
+    margin: 20px;
+    text-align: center;
+}
+
+div1{
+   display: flex;
+   flex-direction: row;
+   /* align-content: space-around; */
+}
+* {
+    font-family: Futura;
+}
+
+article {
+    background-color: #c1e0f4;
+    padding: 10px;
+}
+
+img {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

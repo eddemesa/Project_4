@@ -1,0 +1,41 @@
+body {
+    font-family: Helvetica;
+    font-size: 2.4em;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template: repeat(4, 2fr) / repeat(4, 2fr);
+    grid-template-areas:
+        "h h h h"
+        "a a b c"
+        "a a b c"
+        "f f f f"
+    ;
+}
+
+header {
+    grid-area: h;
+    background-color: #D0021B;
+}
+
+section#a {
+    grid-area: a;
+    background-color: #9013FE;
+}
+
+section#b {
+    grid-area: b;
+    background-color: #F8E71C;
+}
+
+section#c {
+    grid-area: c;
+    background-color: #e87407;
+}
+footer {
+    grid-area: f;
+    background-color: #50E3C2;
+}

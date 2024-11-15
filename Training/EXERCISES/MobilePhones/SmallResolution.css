@@ -1,0 +1,63 @@
+
+.responsive-element {
+    display: inline-block;
+    border: 10px groove #000; /* Define border style and color */
+    padding: 10px; /* Space inside the border */
+    background-color: #E8D7FF; /* Optional background color */
+    text-align: center; /* Center text inside the border */
+    width: 80%; /* Adjust width as needed */
+    margin: 2%;
+    font-size: 30px;
+    }
+
+ @media (max-width: 420px) {
+    .responsive-element {
+    display: block; /* Change display to block when width is <= 320px */
+    }}
+
+h1 {
+    text-align: center;
+    background-color: blue;
+    border: groove;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+h3 {
+    text-align: center;
+    background-color: green;
+    border: groove;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+p {
+    text-align: center;
+    background-color: honeydew;
+    border: groove;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+a {
+    font-weight: 200;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-family: Helvetica;
+    color: #151814;
+}
+
+ul {
+    text-align: center;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+    margin: 0px 20px;
+}
+
+#one {
+    font-size: 30px;
+    color: red;
+}
